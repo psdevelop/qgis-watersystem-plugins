@@ -1,6 +1,6 @@
 ﻿# -*- coding: utf-8 -*-
 """
-developer Poltarokov SP fr
+developer Poltarokov SP fr testing
 """
 import psycopg2
 import os

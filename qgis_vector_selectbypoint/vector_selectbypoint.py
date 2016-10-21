@@ -19,7 +19,7 @@
  *                                                                         *
  ***************************************************************************/
 """
-# Import the PyQt and QGIS libraries
+# Import the PyQt and QGIS libraries fr
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *
