@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>allNetsDockWidget</class>
+ <widget class="QDockWidget" name="allNetsDockWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>429</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Все сети</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>411</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <attribute name="headerDefaultSectionSize">
+     <number>130</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Все сети</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>2УРОВЕНЬ</string>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>Здания</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Картинки</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Водопровод</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>----Узлы</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Колодец</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Изгиб</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Ввод</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Врезка</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Вход нас. станции</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Выход нас. станции</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Вход резервуара</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Выход резервуара</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Камера</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Источник</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Водомер</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Насос</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Деталировка</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>----Участки</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Сталь</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Чугун</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Железобетон</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Асбестоцемент</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Пластмасса</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Керамика</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Неизвестен</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Стеклопластик</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Канализация</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>----Узлы</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Колодец</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Изгиб</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Выпуск</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Врезка</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Вход нас. станции</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Выход нас. станции</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Дождеприемник</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Камера</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>----Участки</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Сталь</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Чугун</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Железобетон</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Асбестоцемент</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Пластмасса</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Керамика</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Неизвестен</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Стеклопластик</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Теплосеть</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Дренаж</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Контуры</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ливневая канализ.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Эл. защита(газ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Освещение</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Геодезия</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Улицы</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Телеф. канал.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Эл. сеть 0.4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Эл. сеть 6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Эл. сеть 10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Газ высокий</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Газ низкий</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Н/д водопр.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Н/д канализ.</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>151</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Большие диам. - тонкие</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>380</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Рисовать внутри сети</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Не рисовать узлы</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_4">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>400</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Штриховать задания</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

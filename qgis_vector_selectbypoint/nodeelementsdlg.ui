@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>nodeElementsDialog</class>
+ <widget class="QDialog" name="nodeElementsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>455</width>
+    <height>473</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>431</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>190</y>
+     <width>451</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Свойства элемента</string>
+   </property>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>431</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="iDLabel">
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="iDLineEdit">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="nameLabel">
+       <property name="text">
+        <string>Наименование</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="naneLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="descLabel">
+       <property name="text">
+        <string>Описание</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="descLineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="matLabel">
+       <property name="text">
+        <string>Материал</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="matLineEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="lcolorLabel">
+       <property name="text">
+        <string>Цвет линии</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="lcolorLineEdit">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string>Белый</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Желтый</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Синий</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Зеленый</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Красный</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Оранжевый</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="lstyleLabel">
+       <property name="text">
+        <string>Тип линии</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="lstyleComboBox">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string>Обычная</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Пунктир</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Двойной пунктир</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Редкий пунктир</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Точка-тире</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Точка</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Редкая точка</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Две точки-тире</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Два тире-точка</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="lwidthLabel">
+       <property name="text">
+        <string>Толщина линии</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QSpinBox" name="lwidthSpinBox"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="diamLabel">
+       <property name="text">
+        <string>Диаметр</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QSpinBox" name="diamLineEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>451</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Элементы схемы</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>431</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableView" name="tblVNodeElements"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="addElmPButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Новый</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delElmPButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>440</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>nodeElementsDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>nodeElementsDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
