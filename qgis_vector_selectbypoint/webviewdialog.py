@@ -11,7 +11,7 @@ from customWebView import customWebView
 from nodeElementsDialog import nodeElementsDialog
 from math import acos, degrees, sqrt
 from customWebPage import customWebPage
-# create the dialog for zoom to point
+# create the dialog for zoom to point ms
 
 
 class webViewDialog(QtGui.QDialog, Ui_nodeSchemaDialog):
